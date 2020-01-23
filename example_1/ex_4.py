@@ -14,9 +14,11 @@ plt.scatter(x, y, marker="x", color="red") # Dodanie wykresu punktowego
 x = np.array([0, 5]) # Zdefiniowanie argumentów
 hypothesis_1 = 0 + 1 * x # Obliczenie wartości pierwszej hipotezy
 hypothesis_2 = 0.5 + 0.5 * x # Obliczenie wartości drugiej hipotezy
+hypothesis_3 = 0.125 + 1 * x # Obliczenie wartości trzeciej hipotezy
 
 plt.plot(x, hypothesis_1, color="green") # Dodanie pierwszej hipotezy do wykresu
 plt.plot(x, hypothesis_2, color="blue") # Dodanie drugiej hipotezy do wykresu
+plt.plot(x, hypothesis_3, color="red") # Dodanie trzeciej hipotezy do wykresu
 
 plt.grid(True) # Linie pomocnicze
 plt.show() # Wyświetlenie wykresu
