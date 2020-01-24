@@ -8,8 +8,9 @@ data = pd.read_csv('data.csv') # Wczytanie danych
 x = data.iloc[:, 0].values
 y = data.iloc[:, 1].values
 
+plt.xlabel('Populacja w 10.000') # Opis osi X
+plt.ylabel('Zysk w 10.000 PLN') # Opis osi Y
+
 plt.scatter(x, y, marker="x", color="red") # Dodanie wykresu punktowego
 plt.grid(True) # Linie pomocnicze
-plt.xlabel('Populacja w 10.000') # Opis osi X
-plt.ylabel('Zysk w 10.000$') # Opis osi Y
 plt.show() # Wyświetlenie wykresu

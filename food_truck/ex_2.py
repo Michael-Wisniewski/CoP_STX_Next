@@ -31,5 +31,5 @@ print('Otrzymane parametry to:\ntheta_0: {}\ntheta_1: {}'.format(theta_0, theta_
 print('Szacowany zysk dla o populacji 175000 osób to: {}'.format(sought_value))
 plt.grid(True) # Linie pomocnicze
 plt.xlabel('Populacja w 10.000') # Opis osi X
-plt.ylabel('Zysk w 10.000$') # Opis osi Y
+plt.ylabel('Zysk w 10.000 PLN') # Opis osi Y
 plt.show() # Wyświetlenie wykresu
